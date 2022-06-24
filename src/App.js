@@ -45,8 +45,15 @@ function App() {
         </div>
 
         <div className='flex justify-between p-10 space-x-3'>
-        <img src={img1} className='px-4' alt='dice img'/>        
-        <img src={img2} className='px-4' alt='dice img'/>        
+        <div className='flex flex-col items-center'>
+        <img src={img1} className='px-4' alt='dice img'/>
+        <p className='text-[#ECDBBA] text-3xl p-7'>Player 1</p>
+        </div> 
+        <div className='flex flex-col items-center'>
+        <img src={img2} className='px-4' alt='dice img'/>
+        <p className='text-[#ECDBBA] text-3xl p-7'>Player 2</p> 
+        </div>       
+               
         
         </div>
       
