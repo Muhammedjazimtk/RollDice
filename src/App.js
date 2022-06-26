@@ -40,8 +40,8 @@ function App() {
     <div className='flex  flex-col justify-center bg-[#2D4263] min-h-screen w-full'>
       <div className='flex flex-col items-center poppins space-y-5 '>
         <h1 className='text-[#C84B31] text-5xl font-[200] py-10'>{name} </h1>
-        <div className='flex flex-col justify-center bg-[#ECDBBA] w-[130px] h-[40px] rounded-md' onClick={handleClick}>
-         <p className='flex flex-col items-center font-[600]'>Roll</p>
+        <div className='flex flex-col hover:bg-white hover:-translate-y-1 duration-300 justify-center bg-[#ECDBBA] w-[130px] h-[40px] rounded-md' onClick={handleClick}>
+         <p className='flex flex-col  items-center font-[600]'>Roll</p>
         </div>
 
         <div className='flex justify-between p-10 space-x-3'>
